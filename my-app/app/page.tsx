@@ -18,6 +18,7 @@ export default function Home() {
             return (
               <>
                 <li
+                  draggable="true"
                   key={items.title}
                   className="flex gap-5 justify-center rounded-md p-2 border text-center w-52"
                 >
